@@ -15,7 +15,7 @@
     "@types/next-server": "^9.0.0",
     "faunadb": "^4.6.0",
     "faunadb-fql-lib": "^0.13.0",
-    "next": "12.2.4",
+    "next": "^12.2.5",
     "next-auth": "^4.10.3",
     "node": "^18.7.0",
     "react": "^18.2.0",
@@ -24,10 +24,11 @@
     "sass": "^1.54.3",
     "stripe": "^10.2.0",
     "stripe-cli": "^0.1.0",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0"
   },
   "devDependencies": {
-    "@types/node": "^18.6.4",
+    "@types/node": "^18.7.6",
     "@types/react": "^18.0.17",
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.4"
