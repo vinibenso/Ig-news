@@ -1,0 +1,19 @@
+{
+  "_cts": {
+    "publication": {}
+  },
+  "slices": {
+    "Slice": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

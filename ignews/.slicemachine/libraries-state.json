@@ -1,0 +1,80 @@
+{
+  "slices": {
+    "components": {
+      "slice": {
+        "library": "slices",
+        "id": "slice",
+        "name": "Slice",
+        "description": "Slice",
+        "model": {
+          "id": "slice",
+          "type": "SharedSlice",
+          "name": "Slice",
+          "description": "Slice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Slice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Content",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Lucky",
+                  "spans": []
+                }
+              ],
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Do ipsum dolore ea veniam do. Enim sit Lorem labore ad sit cillum nisi ea ex.",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "slice"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}
